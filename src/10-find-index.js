@@ -29,7 +29,7 @@ function findIndex(array, target) {
       return mid;
     }
   }
-  return mid; // unnecessary return for ESLINT
+  return mid;
 }
 
 module.exports = findIndex;
